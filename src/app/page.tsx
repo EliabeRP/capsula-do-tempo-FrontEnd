@@ -1,7 +1,9 @@
-import Image from 'next/image';
+import { EmpytMemories } from '@/components/EmpytMemories';
 
-export default function Home() {
+
+export default function NewMemory() {
+
   return (
-    <h1>Hello world</h1>
+    <EmpytMemories />
   )
 }
